@@ -31,34 +31,34 @@
         android:layout_height="38dp"
         android:text="Turn on Dark theme" />
 
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+
     <RadioGroup
         android:id="@+id/groupGender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <ToggleButton
-            android:id="@+id/toggleButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="ToggleButton" />
+        android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/radioButtonMale"
-            android:layout_width="match_parent"
+            android:layout_width="109dp"
             android:layout_height="wrap_content"
             android:text="Male" />
 
         <RadioButton
             android:id="@+id/radioButtonFemale"
-            android:layout_width="match_parent"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="Female" />
 
         <RadioButton
             android:id="@+id/radioButtonOther"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="114dp"
+            android:layout_height="match_parent"
             android:text="Other" />
 
     </RadioGroup>
